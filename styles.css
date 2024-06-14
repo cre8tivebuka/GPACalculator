@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+input, select{
+    padding: 5px;
+    border-radius: 5px;
+    flex: 1;
+    background-color: white;
+    border-width: 2.5px;
+    border-color: black;
+}
+
+button{
+    color: darkgreen;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#result{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: darkgreen;
+}
